@@ -13,7 +13,6 @@ public class Q2 {
         return chains;
         //Retorna a lista com as cadeias geradas.
     }
-
     private static void generateChainsRecursive(String symbol, int N, String currentChain, List<String> chains) {
         //Metodo privado e recursivo para gerar as cadeias.
         //Recebe o simbolo atual, o comprimento N, a cadeia atual sendo construída e a lista de cadeias.
@@ -50,7 +49,6 @@ public class Q2 {
                 break;
         }
     }
-
     public static void main(String[] args) {
         //Metodo principal para testar o codigo.
         int N = 3;

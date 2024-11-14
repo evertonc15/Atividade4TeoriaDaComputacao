@@ -22,7 +22,6 @@ public class Q1 {
             //Retorna falso, indicando que a cadeia nao pertence a linguagem.
         }
     }
-
     private static boolean checkA(String chain, int position) {
         //Metodo privado e estatico que verifica se a cadeia e composta apenas pelo caractere 'a'.
         //Recebe a cadeia e a posição atual a ser analisada.
